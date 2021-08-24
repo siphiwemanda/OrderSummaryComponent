@@ -3,5 +3,62 @@ body{
 }
 
 .card{
+
+    background-color: bisque;
+    height: 65vh;
+    width: 50vh;
+    border-radius: 20px;
+    background-image:  url(../images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    position: relative;
     
+}
+.card-text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+}
+
+.Info{
+    background-color: grey;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.musicNote{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+
+}
+.plan{
+    
+}
+
+.pull-right{
+    float: right;
+}
+
+.btn:link,
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: all .2s;
+    position: relative;
+
+}
+
+.btn-purple{
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+}
+
+.btn-grey{
+    color: grey;
 }
