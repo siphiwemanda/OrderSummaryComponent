@@ -1,10 +1,10 @@
 body{
 
+    background-color: grey;
 }
 
 .card{
-
-    background-color: bisque;
+    background-color: #ffffff;
     height: 65vh;
     width: 50vh;
     border-radius: 20px;
@@ -12,7 +12,6 @@ body{
     background-repeat: no-repeat;
     background-size: contain ;
     position: relative;
-    
 }
 .card-text{
     position: absolute;
@@ -22,24 +21,31 @@ body{
 }
 
 .Info{
-    background-color: grey;
+    background-color:hsl(225, 100%, 98%);
     position: relative;
     border-radius: 20px;
     padding: 20px;
-
+    margin-bottom: 30px;
+}
+.main-text{
+    text-align: center;
 }
 .musicNote{
     position: absolute;
     left: 5%;
     top: 30%;
-
 }
 .plan{
-    
+    position: relative;
+    left: 20%;
+    top: 30%;
+    line-height:0;
 }
 
 .pull-right{
-    float: right;
+    position: absolute;
+    left: 60%;
+    top: 30%;
 }
 
 .btn:link,
@@ -51,14 +57,19 @@ body{
     border-radius: 20px;
     transition: all .2s;
     position: relative;
-
+    margin-bottom: 20px;
 }
 
 .btn-purple{
     background-color: hsl(245, 75%, 52%);
     color:white;
+    width: 80%;
+    text-align: center;
+
 }
 
 .btn-grey{
     color: grey;
+    width: 80%;
+    text-align: center;
 }
