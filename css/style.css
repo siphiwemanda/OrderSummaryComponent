@@ -6,9 +6,16 @@ background-color: grey;
 }
 
 .MainBody{
-    /*background-image:  url(../images/pattern-background-desktop.svg);
+    background-image:  url(../images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 98%);
     background-repeat: no-repeat;
-    background-size: contain ;*/
+    background-size: contain;
+    width: 95vw;
+    height: 95vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .card{
     background-color: #ffffff;
