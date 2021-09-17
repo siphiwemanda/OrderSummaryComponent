@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-
 }
-
+html{
+    font-size:100%;
+}
 body{
     font-family: "Red Hat Display", sans-serif;
-
 }
 .MainBody{
     background-image:  url(../images/pattern-background-desktop.svg);
@@ -24,7 +24,7 @@ body{
     background-color: #ffffff;
     height: 75vh;
     width: 50vh;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-image:  url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
     background-size: contain ;
@@ -32,10 +32,8 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 100px hsl(224, 23%, 55%);
-
+    box-shadow: 0 0 6.25rem hsl(224, 23%, 55%);
 }
-
 .card-text{
     position: absolute;
     top: 40%;
@@ -43,18 +41,17 @@ body{
     right: 10%;
 
 }
-
 .info-section{
     background-color:hsl(225, 100%, 98%);
     position: relative;
-    border-radius: 20px;
-    padding: 40px;
+    border-radius: 1.25rem;
+    padding: 2.5rem;
     margin-bottom: 20px;
-    box-shadow: inset 0 0 100px hsl(225, 100%, 98%);
+    box-shadow: inset 0 0 6.25rem hsl(225, 100%, 98%);
 }
 .main-text{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .musicNote{
     position: absolute;
@@ -66,13 +63,11 @@ body{
     left: 20%;
     top: 30%;
 }
-
 .pull-right{
     position: absolute;
     left: 60%;
     top: 30%;
 }
-
 .btn-section{
     position: relative;
 }
@@ -82,22 +77,33 @@ body{
     text-decoration: none;
     padding: 15px 40px;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     transition: all .2s;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-align: center;
 }
 .btn-purple{
     background-color: hsl(245, 75%, 52%);
     color:white;
     width: 80%;
-
-    box-shadow: 0 0 100px hsl(224, 23%, 55%);
-
+    box-shadow: 0 0 6.25rem hsl(224, 23%, 55%);
 }
 .btn-grey{
     color: grey;
     width: 80%;
+}
+.btn:hover{
+    transform: translateY(-3px);
+}
 
+.btn-purple:active{
+    background-color:hsl(224, 23%, 55%);
+}
+.btn-grey:active{
+    color: black;
+}
+.btn-blue:active{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
 }
